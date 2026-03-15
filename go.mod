@@ -1,4 +1,4 @@
-module gorge-conduit
+module github.com/soulteary/gorge-conduit
 
 go 1.26
 

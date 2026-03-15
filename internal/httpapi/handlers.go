@@ -4,7 +4,7 @@ import (
 	"crypto/subtle"
 	"net/http"
 
-	"gorge-conduit/internal/gateway"
+	"github.com/soulteary/gorge-conduit/internal/gateway"
 
 	"github.com/labstack/echo/v4"
 )
