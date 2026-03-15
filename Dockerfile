@@ -8,7 +8,7 @@ RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o gorge-conduit ./cmd/server
 
 FROM alpine:3.20
 RUN apk add --no-cache ca-certificates
-COPY --from=builder /gorge-conduit /usr/local/bin/gorge-conduit
+COPY --from=builder /src/gorge-conduit /usr/local/bin/gorge-conduit
 
 EXPOSE 8150
 
