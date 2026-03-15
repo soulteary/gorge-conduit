@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"phorge-conduit/internal/config"
-	"phorge-conduit/internal/gateway"
-	"phorge-conduit/internal/httpapi"
+	"gorge-conduit/internal/config"
+	"gorge-conduit/internal/gateway"
+	"gorge-conduit/internal/httpapi"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
